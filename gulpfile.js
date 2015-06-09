@@ -107,10 +107,10 @@ gulp.task('sass-watch', function () {
 });
 
 /**
- * Watch for changes to our SASS.
+ * Watch for changes to our CSS.
  */
 gulp.task('css-watch', function () {
-    return gulp.watch('src/scss/**/*.css', ['css']);
+    return gulp.watch('src/css/**/*.css', ['css']);
 });
 
 /**
