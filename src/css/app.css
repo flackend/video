@@ -1,3 +1,9 @@
+html {
+  /**
+     * This keeps Windows version from always showing a horizontal scrollbar.
+     */
+  overflow: hidden; }
+
 body {
   background-color: #fff; }
 
@@ -5,4 +11,4 @@ body {
 .ui.segment.attached {
   border: 0; }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksdUJBQXVCLEVBRHJCOztBQUtLOztFQUNQLFVBQVUsRUFEUSIsImZpbGUiOiJhcHAuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbn1cblxuLnVpLnNlZ21lbnQsXG4udWkuc2VnbWVudC5hdHRhY2hlZCB7XG4gICAgYm9yZGVyOiAwO1xufSJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0k7O09BRUc7RUFDSCxpQkFBaUIsRUFKZjs7QUFPTjtFQUNJLHVCQUF1QixFQURyQjs7QUFLSzs7RUFDUCxVQUFVLEVBRFEiLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwge1xuICAgIC8qKlxuICAgICAqIFRoaXMga2VlcHMgV2luZG93cyB2ZXJzaW9uIGZyb20gYWx3YXlzIHNob3dpbmcgYSBob3Jpem9udGFsIHNjcm9sbGJhci5cbiAgICAgKi9cbiAgICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG5ib2R5IHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xufVxuXG4udWkuc2VnbWVudCxcbi51aS5zZWdtZW50LmF0dGFjaGVkIHtcbiAgICBib3JkZXI6IDA7XG59Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */
