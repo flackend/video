@@ -114,6 +114,17 @@ gulp.task('css-watch', function () {
 });
 
 /**
+ * Watch for changes to our non-processed files.
+ */
+gulp.task('copy-watch', function () {
+    return gulp.watch([
+            'src/views/index.html',
+            'src/main.js',
+            'package.json'
+        ], ['copy']);
+});
+
+/**
  * This runs all the tasks and ends without watching for changes.
  */
 gulp.task('build', ['copy', 'sass', 'css', 'js']);
@@ -121,7 +132,7 @@ gulp.task('build', ['copy', 'sass', 'css', 'js']);
 /**
  * This runs the build task, then starts watching for changes.
  */
-gulp.task('default', ['build', 'sass-watch', 'css-watch', 'js-watch']);
+gulp.task('default', ['build', 'sass-watch', 'copy-watch', 'css-watch', 'js-watch']);
 
 /**
  * This is encapsulated in a function since it's used by two different tasks.
