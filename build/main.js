@@ -12,10 +12,8 @@ app.on('ready', function() {
 
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        // width: 375,
-        // height: 300,
-        width: 600,
-        height: 600
+        width: 375,
+        height: 300,
     });
     // Load page
     mainWindow.loadUrl('file://' + __dirname + '/index.html');
