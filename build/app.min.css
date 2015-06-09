@@ -25036,5 +25036,10 @@ html.ios {
   display: inline;
 }
 body {
-  margin-top: 14px;
+  background-color: #fff;
+}
+
+.ui.segment,
+.ui.segment.attached {
+  border: 0;
 }
