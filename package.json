@@ -1,0 +1,22 @@
+{
+  "name": "video-director-helper",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browserify": "^10.2.4",
+    "electron-prebuilt": "^0.27.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2"
+  }
+}

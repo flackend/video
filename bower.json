@@ -1,0 +1,22 @@
+{
+  "name": "video-director-helper",
+  "version": "0.1.0",
+  "authors": [
+    "Jared Flack <jared.flack@gmail.com>"
+  ],
+  "main": "main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~1.12.3",
+    "moment": "~2.10.3",
+    "jquery": "~2.1.4"
+  }
+}
