@@ -54,13 +54,13 @@ gulp.task('css', function () {
             'src/css/import.css',
             'src/css/app.css'
         ])
+        .pipe(concat('app.min.css'))
         .pipe(minify({
             relativeTo: 'build',
             target: 'build'
         }).on('error', function (e) {
             console.log(e);
         }))
-        .pipe(concat('app.min.css'))
         .pipe(gulp.dest('build'));
 });
 
