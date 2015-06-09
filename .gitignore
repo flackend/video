@@ -1,5 +1,5 @@
 # Libraries
-/bower_components
+/build/vendor
 /node_modules
 
 # OSX stuff

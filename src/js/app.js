@@ -1,7 +1,7 @@
 // Require some modules
 var monthNames = require('./months.json');
-window.jQuery = window.$ = require('../../bower_components/jquery/dist/jquery.min.js');
-require('../../bower_components/semantic-ui/dist/semantic.min.js');
+window.jQuery = window.$ = require('../../build/vendor/jquery/dist/jquery.min.js');
+require('../../build/vendor/semantic-ui/dist/semantic.min.js');
 
 // Require Electron modules
 var clipboard = require('clipboard');
