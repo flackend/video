@@ -14,6 +14,7 @@ app.on('ready', function() {
     mainWindow = new BrowserWindow({
         width: 375,
         height: 300,
+        title: 'Video Director Helper'
     });
     // Load page
     mainWindow.loadUrl('file://' + __dirname + '/index.html');
